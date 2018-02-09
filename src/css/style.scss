@@ -1,0 +1,20 @@
+@import 'variables';
+
+body {
+    font-family: Avenir, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $color;
+}
+* {
+    box-sizing: inherit;
+}
+img {
+    max-width: 300px;
+}
+.page {
+    max-width: 600px;
+    margin: 0 auto;
+}
